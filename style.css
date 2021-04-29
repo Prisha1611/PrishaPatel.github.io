@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: poppins;
+}
+
+#main {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: whitesmoke;
+  box-shadow: 5px 10px 30px rgba(0,0,0,0.02);
+  z-index: 4;
+}
+
+.logo img {
+  height: 80px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+}
+
+.menu li a {
+  height: 40px;
+  line-height: 50px;
+  margin: 4px;
+  padding: 1px 20px;
+  display: flex;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: grey;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hey {
+  color: #1db096;
+  font-weight: 200;
+  font-size: 14px;
+  border-bottom: 3px solid thistle;
+  font-family: cursive;
+}
+
+.image {
+  width: 500px;
+  height: 400px;
+  display: flex;
+  margin: 0px 200px 0px 0px;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  left: 55%;
+  right: 55%;
+  transform: translate(-55%,-50%);
+}
+
+.main {
+  width: 500px; 
+}
+
+.main h1{
+  font-size: 3em;
+  color: #1c3548;
+  margin: 0px 0px 10px 0px;
+  line-height: 50px;
+}
+
+.main p{
+  color: grey;
+}
+
+.resume-btn {
+  width: 180px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #1db096;
+  border-radius: 22.5px;
+  box-shadow: 5px 10px 30px rgba(24, 139,119, 0.2);
+}
+
+.resume-btn:hover {
+  background-color:#38ffda;
+  transition: all ease 0.5s;
+}
+
+.menu li a:hover {
+  background-color:#23cdaf;
+  color: white;
+  box-shadow: 5px 10px 30px rgba(24, 139,119, 0.2);
+  transition: all ease 0.2s;
+  border-radius: 25px;
+}
+
+.hey:hover {
+  background-color: bisque;
+  transition: all ease 0.3s; 
+}
